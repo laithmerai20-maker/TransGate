@@ -19,7 +19,7 @@ onBackgroundMessage(messaging, (payload) => {
   const notificationTitle = payload.notification.title;
   const notificationOptions = {
     body: payload.notification.body,
-    icon: '/icon.png' // ضع رابط أيقونة الموقع
+    icon: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP_8BswWAYZmLhFcHAJfqpapbXpu08BpPWUePtan_N8EKwNzKvXu4HDNXPhf4X-aoGPPeaH4h20ZuFzE6cI2EpG5nujcR22F04fpHUEYH3UENxrFpIzZHKW-5TMyUJqoC_0RZiqo3ERz9dQESJAcgP1XOtCSv8h0qi00nP9rSizPINYA3tP9K7BP5pR8nv/s1024/1757896644486%20(1).png // ضع رابط أيقونة الموقع
   };
 
   self.registration.showNotification(notificationTitle, notificationOptions);
